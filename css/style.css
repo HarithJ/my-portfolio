@@ -1,11 +1,27 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.3rem;
+  font-size: calc(1.255rem + 0.06vw);
 }
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.3rem; } }
 
 nav {
   font-size: 1.1rem;
 }
+
+h1 {
+  font-size: calc(1.375rem + 1.5vw); }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 2.5rem; } }
+
+h3 {
+  font-size: calc(1.3rem + 0.6vw); }
+  @media (min-width: 1200px) {
+    h3 {
+      font-size: 1.75rem; } }
 
 .db-text {
   color: #2d292d;
