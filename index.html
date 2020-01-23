@@ -13,22 +13,22 @@
 
     <title>Harith Javed</title>
   </head>
-  <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <body data-spy="scroll" data-target="#navbar-ex" data-offset="0">
+    <nav id="navbar-ex" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Harith Bakhrani</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Me</a>
@@ -38,30 +38,30 @@
     </nav>
 
     <div class="container-md">
-
-      <div class="row align-items-center mt-3">
-        <div class="col-4" id="img-div">
-          <img class="img-fluid rounded-lg img-thumbnail" src="images/harith-pic.jpg" />
-        </div>
-        <div class="col-8">
-          <div class="row">
-            <div class="col-auto">
-              <h3>Harith Javed Bakhrani</h3>
+      <section id="home" class="min-vh-100">
+        <div class="row align-items-center mt-3">
+          <div class="mx-auto mx-md-0 col-sm-8 col-md-4" id="img-div">
+            <img class="img-fluid rounded-lg img-thumbnail" src="images/harith-pic.jpg" />
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <div class="row">
+              <div class="mx-auto mx-md-0 mt-3 mt-md-0 col-auto">
+                <h3>Harith Javed Bakhrani</h3>
+              </div>
+            </div>
+            <hr class="d-none d-md-block" />
+            <div class="row">
+              <div class="mx-auto mx-md-0 col-auto">
+                <h3>Software / DevOps Engineer</h3>
+              </div>
             </div>
           </div>
-          <hr />
-          <div class="row">
-            <div class="col-auto">
-              <h3>Software / DevOps Engineer</h3>
-            </div>
-          </div>
         </div>
-      </div>
 
-        <div class="row mt-5 db-text">
-          <div class="col-auto">
-            <h1><span class="top-bordered"></span>Hi, I am Harith Bakhrani</h1>
-            <h1>I Engineer Web Applications And Automate Their Deployment To The Cloud<span class="bottom-bordered"></span></h1>
+        <div class="row mt-5 secondary-color">
+          <div class="col-auto col-sm-12 mx-auto mx-md-0">
+            <h1><span class="top-bordered"></span>Hi, I am Harith Bakhrani <br />
+            I Engineer Web Applications And Automate Their Deployment To The Cloud<span class="bottom-bordered"></span></h1>
           </div>
         </div>
 
@@ -80,6 +80,21 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section id="projects" class="min-vh-100">
+        <div class="row">
+          <div class="col-auto">
+            <h1 class="heading">Projects</h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="min-vh-100">
+        <div class="row">
+          <h1 class="heading">Experience</h1>
+        </div>
+      </section>
 
     </div>
 
