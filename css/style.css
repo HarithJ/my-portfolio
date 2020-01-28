@@ -76,3 +76,15 @@ h3 {
   position: absolute;
   bottom: -4px;
 }
+
+card, a {
+  color: #c5722a;
+}
+
+card, a:hover {
+  color: #a76124;
+}
+
+.badge-primary {
+  background-color: #2d292d;
+}
