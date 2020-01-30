@@ -13,22 +13,22 @@
 
     <title>Harith Javed</title>
   </head>
-  <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <body data-spy="scroll" data-target="#navbar-ex" data-offset="0">
+    <nav id="navbar-ex" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Harith Bakhrani</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Me</a>
@@ -36,32 +36,32 @@
         </ul>
       </div>
     </nav>
-
-    <div class="container-md">
-
-      <div class="row align-items-center mt-3">
-        <div class="mx-auto mx-md-0 col-sm-8 col-md-4" id="img-div">
-          <img class="img-fluid rounded-lg img-thumbnail" src="images/harith-pic.jpg" />
-        </div>
-        <div class="col-sm-12 col-md-8">
-          <div class="row">
-            <div class="mx-auto mx-md-0 mt-3 mt-md-0 col-auto">
-              <h3>Harith Javed Bakhrani</h3>
+    
+    <div class="container">
+      <section id="home" class="min-vh-100">
+        <div class="row align-items-center mt-3">
+          <div class="mx-auto mx-md-0 col-sm-8 col-md-4" id="img-div">
+            <img class="img-fluid rounded-lg img-thumbnail" src="images/harith-pic.jpg" />
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <div class="row">
+              <div class="mx-auto mx-md-0 mt-3 mt-md-0 col-auto">
+                <h3>Harith Javed Bakhrani</h3>
+              </div>
+            </div>
+            <hr class="d-none d-md-block" />
+            <div class="row">
+              <div class="mx-auto mx-md-0 col-auto">
+                <h3>Software / DevOps Engineer</h3>
+              </div>
             </div>
           </div>
-          <hr class="d-none d-md-block" />
-          <div class="row">
-            <div class="mx-auto mx-md-0 col-auto">
-              <h3>Software / DevOps Engineer</h3>
-            </div>
-          </div>
         </div>
-      </div>
 
-        <div class="row mt-5 db-text">
-          <div id="my-work" class="col-auto col-sm-12 mx-auto mx-md-0">
-            <h1><span class="top-bordered"></span>Hi, I am Harith Bakhrani</h1>
-            <h1>I Engineer Web Applications And Automate Their Deployment To The Cloud<span class="bottom-bordered"></span></h1>
+        <div class="row mt-5 secondary-color">
+          <div class="col-auto col-sm-12 mx-auto mx-md-0">
+            <h1><span class="top-bordered"></span>Hi, I am Harith Bakhrani <br />
+            I Engineer Web Applications And Automate Their Deployment To The Cloud<span class="bottom-bordered"></span></h1>
           </div>
         </div>
 
@@ -80,6 +80,102 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section id="projects" class="min-vh-100">
+        <div class="row">
+          <div class="col-auto">
+            <h1 class="heading">Projects</h1>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <img src="images/blog.png" class="card-img-top" alt="Typewriter Blog Application">
+          <div class="card-body">
+            <h4 class="card-title">Typewriter</h4>
+            <p class="card-text">
+              Typewriter enables users to read any one else's blog post and
+              publish their own. It features a secure authentication system,
+              autosaving mode, and saving posts as drafts before publishing them.
+            </p>
+            <hr />
+            <p>
+              Tech Used:
+              <span class="badge badge-primary">JavaScript</span>
+              <span class="badge badge-primary">Node.js</span>
+              <span class="badge badge-primary">Express.js</span>
+              <span class="badge badge-primary">Passport.js</span>
+              <span class="badge badge-primary">CKeditor</span>
+              <span class="badge badge-primary">Pug.js</span>
+              <span class="badge badge-primary">PostgreSQL</span>
+            </p>
+            <div class="row">
+              <div class="col-auto mr-auto">
+                <p class="card-text"><small class="text-muted">Status: In development</small></p>
+              </div>
+              <div class="col-auto">
+                <p class="card-text">
+                  <a href="https://github.com/HarithJ/blog-nodejs" target="_blank"><small>GitHub</small></a>
+                  <a href="https://typewriter-harith.herokuapp.com/" target="_blank"><small>Website</small></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="min-vh-100">
+        <div class="row">
+          <div class="col-auto">
+            <h1 class="heading">Experience</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-auto mt-5">
+            <h4 class="primary-color">Andela</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-11 mx-auto mt-2 border-left pl-4">
+            <p class="font-weight-bold m-0">DevOps Engineer</p>
+            <p class="text-muted m-0"><small>May 2018 - Present</small></p>
+            <p class="text-muted"><small>Nairobi, Kenya</small></p>
+
+            <p>Administered and monitored Jenkins.</p>
+
+            <p>Mentored fellow DevOps Engineers on how to setup pipelines on Jenkins cutting out on the learning curve.</p>
+
+            <p>Set up scalable Jenkins on GKE with master-slave architecture using the Jenkins Helm charts, increasing efficiency by 80%.</p>
+
+            <p>Designed and implemented production grade CI/CD pipelines.</p>
+
+            <p>Set up monitoring and alert system using Stackdriver thus catching any kind of system failures early.</p>
+
+            <p>Architected and rolled out a fault-tolerant infrastructure on GCP using Terraform and kubernetes with up-to 99% uptime.</p>
+
+            <p>Designed and built Docker containers for different workflows to reduce dependency conflicts.</p>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2 mt-2 rounded-circle border pl-4">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-11 mx-auto mt-2 border-left pl-4">
+            <p class="font-weight-bold m-0">Junior Software Engineer</p>
+            <p class="text-muted m-0"><small>Dec 2017 - Apr 2018</small></p>
+            <p class="text-muted"><small>Nairobi, Kenya</small></p>
+
+            <p><a href="https://github.com/andela/wg-anansi/commits?author=HarithJ">Contributed</a> to Wger Workout Manager,
+              a Django application</p>
+          </div>
+        </div>
+      </section>
 
     </div>
 
