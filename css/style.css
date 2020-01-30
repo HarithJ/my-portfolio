@@ -34,6 +34,10 @@ section:before {
   top: 20px;
 }
 
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.3rem; } }
+
 nav {
   font-size: 1.1rem;
 }
