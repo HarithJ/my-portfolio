@@ -1,7 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: calc(1.100rem + 0.03vw);
-  position: relative;
 }
 
 section:before {
@@ -33,10 +32,6 @@ section:before {
   position: relative;
   top: 20px;
 }
-
-@media (min-width: 1200px) {
-  body {
-    font-size: 1.3rem; } }
 
 nav {
   font-size: 1.1rem;
