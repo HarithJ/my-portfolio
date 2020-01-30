@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: calc(1.255rem + 0.06vw);
+  font-size: calc(1.100rem + 0.03vw);
   position: relative;
 }
 
@@ -54,6 +54,10 @@ h3 {
   color: #2d292d;
 }
 
+.primary-color {
+  color: #c5722a;
+}
+
 .top-bordered {
   content: "";
   height: 20px;
@@ -77,14 +81,20 @@ h3 {
   bottom: -4px;
 }
 
-card, a {
+a {
   color: #c5722a;
 }
 
-card, a:hover {
+a:hover {
   color: #a76124;
 }
 
 .badge-primary {
   background-color: #2d292d;
+}
+
+.seperator {
+  width: 15px;
+  height: 15px;
+
 }
